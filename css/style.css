@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: burlywood;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -16,4 +20,16 @@
     font-weight: bold;
     font-size: 24px;
     color: azure;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    max-width: 300px;
+}
+.card-title{
+    font-weight: bold;
 }
