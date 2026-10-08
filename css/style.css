@@ -33,3 +33,37 @@ h2{
 .card-title{
     font-weight: bold;
 }
+
+.menu {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.menu-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  color: rgb(141, 87, 8);  
+}
+
+.card {
+  max-width: 300px;
+}
+
+.card-img-top {
+  height: 200px;   
+}
+
+.card-title {
+  font-weight: bold;
+  color: rgb(141, 87, 8);
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
